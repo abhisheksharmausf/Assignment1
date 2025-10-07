@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Analytics – MARS Craft Store</title>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+  <header class="site-header">
+    <img src="img/logo.png" alt="MARS Craft Store Logo" class="logo"/>
+    <h1>Sales Analytics</h1>
+    <nav class="top-nav">
+      <a href="index.html">Home</a>
+      <a href="aboutus.html">About Us</a>
+      <a href="managesales.html">Manage Sales</a>
+      <a href="analytics.html" class="active">Analytics</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main class="content narrow">
+    <section class="card">
+      <h2>Monthly Revenue</h2>
+      <canvas id="revenueChart" width="400" height="220" aria-label="Monthly revenue chart" role="img"></canvas>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2025 MARS Hands Craft Store | 
+      Contact us at <a href="mailto:abhisheksharma@usf.edu">abhisheksharma@usf.edu</a>
+    </p>
+  </footer>
+
+  <!-- Chart.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <script src="js/analytics.js"></script>
+</body>
+</html>
